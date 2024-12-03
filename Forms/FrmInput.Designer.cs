@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Input));
-            this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -38,28 +37,21 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Location = new System.Drawing.Point(0, 63);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(159, 156);
-            this.panel1.TabIndex = 0;
-            // 
             // pictureBox1
             // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::UamAcces.Properties.Resources.Logo;
             this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(-1, 17);
+            this.pictureBox1.Location = new System.Drawing.Point(11, 72);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(156, 136);
+            this.pictureBox1.Size = new System.Drawing.Size(185, 138);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -69,9 +61,10 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.White;
             this.label1.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(332, 89);
+            this.label1.Location = new System.Drawing.Point(263, 78);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(319, 27);
+            this.label1.Size = new System.Drawing.Size(263, 22);
             this.label1.TabIndex = 1;
             this.label1.Text = "Bienvenido a UAM ACCESS";
             // 
@@ -81,9 +74,10 @@
             this.panel2.BackColor = System.Drawing.Color.DarkSlateGray;
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.btmIngresar);
-            this.panel2.Location = new System.Drawing.Point(283, 161);
+            this.panel2.Location = new System.Drawing.Point(226, 137);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(204, 179);
+            this.panel2.Size = new System.Drawing.Size(153, 145);
             this.panel2.TabIndex = 2;
             // 
             // label2
@@ -91,18 +85,20 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(50, 114);
+            this.label2.Location = new System.Drawing.Point(38, 93);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(92, 19);
+            this.label2.Size = new System.Drawing.Size(83, 16);
             this.label2.TabIndex = 1;
             this.label2.Text = "Ingresante";
             // 
             // btmIngresar
             // 
             this.btmIngresar.Image = ((System.Drawing.Image)(resources.GetObject("btmIngresar.Image")));
-            this.btmIngresar.Location = new System.Drawing.Point(19, 8);
+            this.btmIngresar.Location = new System.Drawing.Point(14, 6);
+            this.btmIngresar.Margin = new System.Windows.Forms.Padding(2);
             this.btmIngresar.Name = "btmIngresar";
-            this.btmIngresar.Size = new System.Drawing.Size(166, 103);
+            this.btmIngresar.Size = new System.Drawing.Size(124, 84);
             this.btmIngresar.TabIndex = 0;
             this.btmIngresar.UseVisualStyleBackColor = true;
             this.btmIngresar.Click += new System.EventHandler(this.btmIngresar_Click);
@@ -113,9 +109,10 @@
             this.panel3.BackColor = System.Drawing.Color.DarkSlateGray;
             this.panel3.Controls.Add(this.label3);
             this.panel3.Controls.Add(this.button1);
-            this.panel3.Location = new System.Drawing.Point(564, 161);
+            this.panel3.Location = new System.Drawing.Point(437, 137);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(204, 179);
+            this.panel3.Size = new System.Drawing.Size(153, 145);
             this.panel3.TabIndex = 3;
             // 
             // label3
@@ -123,37 +120,40 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(43, 114);
+            this.label3.Location = new System.Drawing.Point(32, 93);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(120, 19);
+            this.label3.Size = new System.Drawing.Size(105, 16);
             this.label3.TabIndex = 1;
             this.label3.Text = "Administrador";
             // 
             // button1
             // 
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(19, 8);
+            this.button1.Location = new System.Drawing.Point(14, 6);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(166, 103);
+            this.button1.Size = new System.Drawing.Size(124, 84);
             this.button1.TabIndex = 0;
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.BtmAdmin_Click);
             // 
             // Input
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(996, 491);
+            this.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.ClientSize = new System.Drawing.Size(775, 411);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.Name = "Input";
             this.Sizable = false;
             this.Text = "UAM ACCESS";
-            this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
@@ -165,8 +165,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
