@@ -67,6 +67,7 @@
             this.label1.Size = new System.Drawing.Size(263, 22);
             this.label1.TabIndex = 1;
             this.label1.Text = "Bienvenido a UAM ACCESS";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // panel2
             // 

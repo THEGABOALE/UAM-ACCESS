@@ -48,5 +48,10 @@ namespace UamAcces.Formularios
                 this.Close();
             }
         }
+
+        private void AdministratorUi_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

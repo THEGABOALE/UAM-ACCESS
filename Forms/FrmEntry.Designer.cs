@@ -35,7 +35,6 @@
             this.lblDia = new MaterialSkin.Controls.MaterialLabel();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.button1 = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.RbPedestrian = new System.Windows.Forms.RadioButton();
             this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
@@ -47,7 +46,6 @@
             this.RbPrincipal = new System.Windows.Forms.RadioButton();
             this.GbAcces = new System.Windows.Forms.GroupBox();
             this.GbEntry = new System.Windows.Forms.GroupBox();
-            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.GbAcces.SuspendLayout();
             this.GbEntry.SuspendLayout();
@@ -60,10 +58,11 @@
             this.LblWelcome.Depth = 0;
             this.LblWelcome.Font = new System.Drawing.Font("Roboto", 11F);
             this.LblWelcome.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.LblWelcome.Location = new System.Drawing.Point(223, 81);
+            this.LblWelcome.Location = new System.Drawing.Point(167, 66);
+            this.LblWelcome.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LblWelcome.MouseState = MaterialSkin.MouseState.HOVER;
             this.LblWelcome.Name = "LblWelcome";
-            this.LblWelcome.Size = new System.Drawing.Size(256, 24);
+            this.LblWelcome.Size = new System.Drawing.Size(204, 19);
             this.LblWelcome.TabIndex = 0;
             this.LblWelcome.Text = "¡Bienvenido Usuario_Apelido!";
             // 
@@ -74,10 +73,11 @@
             this.lblHora.Depth = 0;
             this.lblHora.Font = new System.Drawing.Font("Roboto", 11F);
             this.lblHora.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.lblHora.Location = new System.Drawing.Point(223, 129);
+            this.lblHora.Location = new System.Drawing.Point(167, 105);
+            this.lblHora.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblHora.MouseState = MaterialSkin.MouseState.HOVER;
             this.lblHora.Name = "lblHora";
-            this.lblHora.Size = new System.Drawing.Size(61, 24);
+            this.lblHora.Size = new System.Drawing.Size(50, 19);
             this.lblHora.TabIndex = 1;
             this.lblHora.Text = "Hora: ";
             // 
@@ -88,10 +88,11 @@
             this.lblDia.Depth = 0;
             this.lblDia.Font = new System.Drawing.Font("Roboto", 11F);
             this.lblDia.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.lblDia.Location = new System.Drawing.Point(223, 165);
+            this.lblDia.Location = new System.Drawing.Point(167, 134);
+            this.lblDia.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblDia.MouseState = MaterialSkin.MouseState.HOVER;
             this.lblDia.Name = "lblDia";
-            this.lblDia.Size = new System.Drawing.Size(47, 24);
+            this.lblDia.Size = new System.Drawing.Size(39, 19);
             this.lblDia.TabIndex = 2;
             this.lblDia.Text = "Día: ";
             // 
@@ -102,29 +103,24 @@
             // button1
             // 
             this.button1.Image = global::UamAcces.Properties.Resources.reloj_de_salida;
-            this.button1.Location = new System.Drawing.Point(309, 394);
+            this.button1.Location = new System.Drawing.Point(232, 320);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(108, 88);
+            this.button1.Size = new System.Drawing.Size(81, 72);
             this.button1.TabIndex = 11;
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.BtmEntry_Click);
             // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Location = new System.Drawing.Point(0, 64);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(159, 156);
-            this.panel1.TabIndex = 12;
-            // 
             // pictureBox1
             // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::UamAcces.Properties.Resources.Logo;
             this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 17);
+            this.pictureBox1.Location = new System.Drawing.Point(11, 70);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(156, 136);
+            this.pictureBox1.Size = new System.Drawing.Size(117, 110);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -133,9 +129,10 @@
             this.RbPedestrian.AutoSize = true;
             this.RbPedestrian.BackColor = System.Drawing.Color.Transparent;
             this.RbPedestrian.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RbPedestrian.Location = new System.Drawing.Point(6, 11);
+            this.RbPedestrian.Location = new System.Drawing.Point(4, 9);
+            this.RbPedestrian.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.RbPedestrian.Name = "RbPedestrian";
-            this.RbPedestrian.Size = new System.Drawing.Size(86, 21);
+            this.RbPedestrian.Size = new System.Drawing.Size(74, 19);
             this.RbPedestrian.TabIndex = 13;
             this.RbPedestrian.TabStop = true;
             this.RbPedestrian.Text = "Peatonal";
@@ -149,10 +146,11 @@
             this.materialLabel2.Depth = 0;
             this.materialLabel2.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel2.Location = new System.Drawing.Point(223, 198);
+            this.materialLabel2.Location = new System.Drawing.Point(167, 161);
+            this.materialLabel2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel2.Name = "materialLabel2";
-            this.materialLabel2.Size = new System.Drawing.Size(142, 24);
+            this.materialLabel2.Size = new System.Drawing.Size(114, 19);
             this.materialLabel2.TabIndex = 14;
             this.materialLabel2.Text = "Tipo de Acceso";
             // 
@@ -161,9 +159,10 @@
             this.RbVehicular.AutoSize = true;
             this.RbVehicular.BackColor = System.Drawing.Color.Transparent;
             this.RbVehicular.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RbVehicular.Location = new System.Drawing.Point(6, 47);
+            this.RbVehicular.Location = new System.Drawing.Point(4, 38);
+            this.RbVehicular.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.RbVehicular.Name = "RbVehicular";
-            this.RbVehicular.Size = new System.Drawing.Size(88, 21);
+            this.RbVehicular.Size = new System.Drawing.Size(75, 19);
             this.RbVehicular.TabIndex = 15;
             this.RbVehicular.TabStop = true;
             this.RbVehicular.Text = "Vehicular";
@@ -173,9 +172,10 @@
             // TbPlate
             // 
             this.TbPlate.Enabled = false;
-            this.TbPlate.Location = new System.Drawing.Point(282, 306);
+            this.TbPlate.Location = new System.Drawing.Point(212, 249);
+            this.TbPlate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TbPlate.Name = "TbPlate";
-            this.TbPlate.Size = new System.Drawing.Size(149, 22);
+            this.TbPlate.Size = new System.Drawing.Size(113, 20);
             this.TbPlate.TabIndex = 16;
             // 
             // materialLabel4
@@ -185,10 +185,11 @@
             this.materialLabel4.Depth = 0;
             this.materialLabel4.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel4.Location = new System.Drawing.Point(223, 308);
+            this.materialLabel4.Location = new System.Drawing.Point(167, 250);
+            this.materialLabel4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.materialLabel4.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel4.Name = "materialLabel4";
-            this.materialLabel4.Size = new System.Drawing.Size(57, 24);
+            this.materialLabel4.Size = new System.Drawing.Size(46, 19);
             this.materialLabel4.TabIndex = 17;
             this.materialLabel4.Text = "Placa";
             // 
@@ -197,9 +198,10 @@
             this.RbResidential.AutoSize = true;
             this.RbResidential.BackColor = System.Drawing.Color.Transparent;
             this.RbResidential.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RbResidential.Location = new System.Drawing.Point(106, 22);
+            this.RbResidential.Location = new System.Drawing.Point(80, 18);
+            this.RbResidential.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.RbResidential.Name = "RbResidential";
-            this.RbResidential.Size = new System.Drawing.Size(105, 21);
+            this.RbResidential.Size = new System.Drawing.Size(91, 19);
             this.RbResidential.TabIndex = 20;
             this.RbResidential.TabStop = true;
             this.RbResidential.Text = "Residencial";
@@ -213,10 +215,11 @@
             this.materialLabel5.Depth = 0;
             this.materialLabel5.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel5.Location = new System.Drawing.Point(223, 347);
+            this.materialLabel5.Location = new System.Drawing.Point(167, 282);
+            this.materialLabel5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.materialLabel5.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel5.Name = "materialLabel5";
-            this.materialLabel5.Size = new System.Drawing.Size(74, 24);
+            this.materialLabel5.Size = new System.Drawing.Size(60, 19);
             this.materialLabel5.TabIndex = 19;
             this.materialLabel5.Text = "Entrada";
             // 
@@ -225,9 +228,10 @@
             this.RbPrincipal.AutoSize = true;
             this.RbPrincipal.BackColor = System.Drawing.Color.Transparent;
             this.RbPrincipal.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RbPrincipal.Location = new System.Drawing.Point(6, 21);
+            this.RbPrincipal.Location = new System.Drawing.Point(4, 17);
+            this.RbPrincipal.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.RbPrincipal.Name = "RbPrincipal";
-            this.RbPrincipal.Size = new System.Drawing.Size(85, 21);
+            this.RbPrincipal.Size = new System.Drawing.Size(73, 19);
             this.RbPrincipal.TabIndex = 18;
             this.RbPrincipal.TabStop = true;
             this.RbPrincipal.Text = "Principal";
@@ -239,9 +243,11 @@
             this.GbAcces.BackColor = System.Drawing.Color.Transparent;
             this.GbAcces.Controls.Add(this.RbPedestrian);
             this.GbAcces.Controls.Add(this.RbVehicular);
-            this.GbAcces.Location = new System.Drawing.Point(227, 225);
+            this.GbAcces.Location = new System.Drawing.Point(170, 183);
+            this.GbAcces.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.GbAcces.Name = "GbAcces";
-            this.GbAcces.Size = new System.Drawing.Size(167, 75);
+            this.GbAcces.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.GbAcces.Size = new System.Drawing.Size(125, 61);
             this.GbAcces.TabIndex = 21;
             this.GbAcces.TabStop = false;
             // 
@@ -250,33 +256,35 @@
             this.GbEntry.BackColor = System.Drawing.Color.Transparent;
             this.GbEntry.Controls.Add(this.RbPrincipal);
             this.GbEntry.Controls.Add(this.RbResidential);
-            this.GbEntry.Location = new System.Drawing.Point(309, 334);
+            this.GbEntry.Location = new System.Drawing.Point(232, 271);
+            this.GbEntry.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.GbEntry.Name = "GbEntry";
-            this.GbEntry.Size = new System.Drawing.Size(220, 54);
+            this.GbEntry.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.GbEntry.Size = new System.Drawing.Size(165, 44);
             this.GbEntry.TabIndex = 22;
             this.GbEntry.TabStop = false;
             // 
             // Entry
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(645, 506);
+            this.ClientSize = new System.Drawing.Size(484, 411);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.GbEntry);
             this.Controls.Add(this.GbAcces);
             this.Controls.Add(this.materialLabel5);
             this.Controls.Add(this.materialLabel4);
             this.Controls.Add(this.TbPlate);
             this.Controls.Add(this.materialLabel2);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.lblDia);
             this.Controls.Add(this.lblHora);
             this.Controls.Add(this.LblWelcome);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MaximizeBox = false;
             this.Name = "Entry";
             this.Sizable = false;
             this.Text = "Entrada";
-            this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.GbAcces.ResumeLayout(false);
             this.GbAcces.PerformLayout();
@@ -294,7 +302,6 @@
         private MaterialSkin.Controls.MaterialLabel lblDia;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.RadioButton RbPedestrian;
         private MaterialSkin.Controls.MaterialLabel materialLabel2;
