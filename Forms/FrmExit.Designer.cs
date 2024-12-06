@@ -57,11 +57,11 @@
             // 
             this.LblRestHour.AutoSize = true;
             this.LblRestHour.BackColor = System.Drawing.Color.Transparent;
-            this.LblRestHour.Font = new System.Drawing.Font("Century Schoolbook", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblRestHour.Font = new System.Drawing.Font("Century Schoolbook", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblRestHour.Location = new System.Drawing.Point(149, 128);
             this.LblRestHour.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LblRestHour.Name = "LblRestHour";
-            this.LblRestHour.Size = new System.Drawing.Size(226, 23);
+            this.LblRestHour.Size = new System.Drawing.Size(188, 19);
             this.LblRestHour.TabIndex = 14;
             this.LblRestHour.Text = "Horas Transcurridas:";
             // 
@@ -69,11 +69,11 @@
             // 
             this.LblHour.AutoSize = true;
             this.LblHour.BackColor = System.Drawing.Color.Transparent;
-            this.LblHour.Font = new System.Drawing.Font("Century Schoolbook", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblHour.Font = new System.Drawing.Font("Century Schoolbook", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblHour.Location = new System.Drawing.Point(149, 169);
             this.LblHour.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LblHour.Name = "LblHour";
-            this.LblHour.Size = new System.Drawing.Size(136, 23);
+            this.LblHour.Size = new System.Drawing.Size(115, 19);
             this.LblHour.TabIndex = 15;
             this.LblHour.Text = "Hora Actual:";
             // 
@@ -81,11 +81,11 @@
             // 
             this.LblEntry.AutoSize = true;
             this.LblEntry.BackColor = System.Drawing.Color.Transparent;
-            this.LblEntry.Font = new System.Drawing.Font("Century Schoolbook", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblEntry.Font = new System.Drawing.Font("Century Schoolbook", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblEntry.Location = new System.Drawing.Point(149, 211);
             this.LblEntry.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LblEntry.Name = "LblEntry";
-            this.LblEntry.Size = new System.Drawing.Size(182, 23);
+            this.LblEntry.Size = new System.Drawing.Size(154, 19);
             this.LblEntry.TabIndex = 16;
             this.LblEntry.Text = "Hora de Entrada:";
             // 
