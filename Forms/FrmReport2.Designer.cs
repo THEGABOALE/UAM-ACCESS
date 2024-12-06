@@ -40,12 +40,12 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::UamAcces.Properties.Resources.Logo;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(9, 67);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Location = new System.Drawing.Point(-5, 57);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(117, 110);
+            this.pictureBox1.Size = new System.Drawing.Size(143, 161);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -56,7 +56,7 @@
             this.CbRole.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CbRole.FormattingEnabled = true;
             this.CbRole.Location = new System.Drawing.Point(192, 102);
-            this.CbRole.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CbRole.Margin = new System.Windows.Forms.Padding(2);
             this.CbRole.Name = "CbRole";
             this.CbRole.Size = new System.Drawing.Size(199, 24);
             this.CbRole.TabIndex = 16;
@@ -77,7 +77,7 @@
             // 
             this.btmInforme.Image = global::UamAcces.Properties.Resources.formulario_de_llenado;
             this.btmInforme.Location = new System.Drawing.Point(453, 67);
-            this.btmInforme.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btmInforme.Margin = new System.Windows.Forms.Padding(2);
             this.btmInforme.Name = "btmInforme";
             this.btmInforme.Size = new System.Drawing.Size(78, 90);
             this.btmInforme.TabIndex = 17;
@@ -90,7 +90,7 @@
             this.BtmReturn.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtmReturn.ForeColor = System.Drawing.Color.White;
             this.BtmReturn.Location = new System.Drawing.Point(9, 210);
-            this.BtmReturn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtmReturn.Margin = new System.Windows.Forms.Padding(2);
             this.BtmReturn.Name = "BtmReturn";
             this.BtmReturn.Size = new System.Drawing.Size(98, 33);
             this.BtmReturn.TabIndex = 23;
@@ -103,12 +103,12 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(557, 254);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.BtmReturn);
             this.Controls.Add(this.btmInforme);
             this.Controls.Add(this.CbRole);
             this.Controls.Add(this.Rol);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.Name = "FrmReport2";
             this.Text = "Reporte Ingresados";

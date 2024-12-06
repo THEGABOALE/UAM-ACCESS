@@ -56,12 +56,12 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::UamAcces.Properties.Resources.Logo;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(11, 68);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Location = new System.Drawing.Point(-7, 63);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(117, 110);
+            this.pictureBox1.Size = new System.Drawing.Size(154, 166);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -96,7 +96,7 @@
             this.CbRole.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CbRole.FormattingEnabled = true;
             this.CbRole.Location = new System.Drawing.Point(218, 121);
-            this.CbRole.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CbRole.Margin = new System.Windows.Forms.Padding(2);
             this.CbRole.Name = "CbRole";
             this.CbRole.Size = new System.Drawing.Size(163, 24);
             this.CbRole.TabIndex = 30;
@@ -108,7 +108,7 @@
             this.CbFaculty.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CbFaculty.FormattingEnabled = true;
             this.CbFaculty.Location = new System.Drawing.Point(218, 171);
-            this.CbFaculty.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CbFaculty.Margin = new System.Windows.Forms.Padding(2);
             this.CbFaculty.Name = "CbFaculty";
             this.CbFaculty.Size = new System.Drawing.Size(163, 24);
             this.CbFaculty.TabIndex = 31;
@@ -118,7 +118,7 @@
             // 
             this.DgvUser.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DgvUser.Location = new System.Drawing.Point(23, 223);
-            this.DgvUser.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.DgvUser.Margin = new System.Windows.Forms.Padding(2);
             this.DgvUser.Name = "DgvUser";
             this.DgvUser.ReadOnly = true;
             this.DgvUser.RowHeadersWidth = 51;
@@ -130,7 +130,7 @@
             // 
             this.btmInforme.Image = global::UamAcces.Properties.Resources.formulario_de_llenado;
             this.btmInforme.Location = new System.Drawing.Point(460, 102);
-            this.btmInforme.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btmInforme.Margin = new System.Windows.Forms.Padding(2);
             this.btmInforme.Name = "btmInforme";
             this.btmInforme.Size = new System.Drawing.Size(78, 90);
             this.btmInforme.TabIndex = 33;
@@ -142,7 +142,6 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(600, 366);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btmInforme);
             this.Controls.Add(this.DgvUser);
             this.Controls.Add(this.CbFaculty);
@@ -150,7 +149,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ViewUser";
             this.Text = "Todos los Usuarios";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
