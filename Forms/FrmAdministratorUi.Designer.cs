@@ -50,10 +50,10 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::UamAcces.Properties.Resources.Logo;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
             this.pictureBox1.Location = new System.Drawing.Point(8, 80);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(117, 110);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -78,7 +78,7 @@
             this.panel3.Controls.Add(this.label3);
             this.panel3.Controls.Add(this.btmHistorial);
             this.panel3.Location = new System.Drawing.Point(357, 123);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(170, 145);
             this.panel3.TabIndex = 5;
@@ -99,7 +99,7 @@
             // 
             this.btmHistorial.Image = global::UamAcces.Properties.Resources.trabajo_en_equipo__1_;
             this.btmHistorial.Location = new System.Drawing.Point(23, 6);
-            this.btmHistorial.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btmHistorial.Margin = new System.Windows.Forms.Padding(2);
             this.btmHistorial.Name = "btmHistorial";
             this.btmHistorial.Size = new System.Drawing.Size(124, 84);
             this.btmHistorial.TabIndex = 0;
@@ -112,7 +112,7 @@
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.btmIngresados);
             this.panel2.Location = new System.Drawing.Point(154, 123);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(170, 145);
             this.panel2.TabIndex = 4;
@@ -133,7 +133,7 @@
             // 
             this.btmIngresados.Image = global::UamAcces.Properties.Resources.usuario__1_;
             this.btmIngresados.Location = new System.Drawing.Point(25, 6);
-            this.btmIngresados.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btmIngresados.Margin = new System.Windows.Forms.Padding(2);
             this.btmIngresados.Name = "btmIngresados";
             this.btmIngresados.Size = new System.Drawing.Size(124, 84);
             this.btmIngresados.TabIndex = 0;
@@ -146,7 +146,7 @@
             this.panel4.Controls.Add(this.label4);
             this.panel4.Controls.Add(this.button1);
             this.panel4.Location = new System.Drawing.Point(572, 123);
-            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(171, 145);
             this.panel4.TabIndex = 6;
@@ -167,7 +167,7 @@
             // 
             this.button1.Image = global::UamAcces.Properties.Resources.agregar_usuario;
             this.button1.Location = new System.Drawing.Point(22, 6);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(124, 84);
             this.button1.TabIndex = 0;
@@ -180,7 +180,7 @@
             this.BtmReturn.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtmReturn.ForeColor = System.Drawing.Color.White;
             this.BtmReturn.Location = new System.Drawing.Point(8, 375);
-            this.BtmReturn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtmReturn.Margin = new System.Windows.Forms.Padding(2);
             this.BtmReturn.Name = "BtmReturn";
             this.BtmReturn.Size = new System.Drawing.Size(98, 33);
             this.BtmReturn.TabIndex = 22;
@@ -192,6 +192,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(818, 427);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.BtmReturn);
@@ -199,7 +200,7 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.Name = "AdministratorUi";
             this.Sizable = false;
