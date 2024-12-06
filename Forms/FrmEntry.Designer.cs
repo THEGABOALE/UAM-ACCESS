@@ -56,13 +56,13 @@
             this.LblWelcome.AutoSize = true;
             this.LblWelcome.BackColor = System.Drawing.Color.White;
             this.LblWelcome.Depth = 0;
-            this.LblWelcome.Font = new System.Drawing.Font("Roboto", 11F);
+            this.LblWelcome.Font = new System.Drawing.Font("Century", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblWelcome.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.LblWelcome.Location = new System.Drawing.Point(167, 66);
+            this.LblWelcome.Location = new System.Drawing.Point(40, 71);
             this.LblWelcome.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LblWelcome.MouseState = MaterialSkin.MouseState.HOVER;
             this.LblWelcome.Name = "LblWelcome";
-            this.LblWelcome.Size = new System.Drawing.Size(204, 19);
+            this.LblWelcome.Size = new System.Drawing.Size(426, 33);
             this.LblWelcome.TabIndex = 0;
             this.LblWelcome.Text = "¡Bienvenido Usuario_Apelido!";
             // 
@@ -71,13 +71,13 @@
             this.lblHora.AutoSize = true;
             this.lblHora.BackColor = System.Drawing.Color.White;
             this.lblHora.Depth = 0;
-            this.lblHora.Font = new System.Drawing.Font("Roboto", 11F);
+            this.lblHora.Font = new System.Drawing.Font("Century Schoolbook", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHora.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.lblHora.Location = new System.Drawing.Point(167, 105);
+            this.lblHora.Location = new System.Drawing.Point(165, 119);
             this.lblHora.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblHora.MouseState = MaterialSkin.MouseState.HOVER;
             this.lblHora.Name = "lblHora";
-            this.lblHora.Size = new System.Drawing.Size(50, 19);
+            this.lblHora.Size = new System.Drawing.Size(71, 23);
             this.lblHora.TabIndex = 1;
             this.lblHora.Text = "Hora: ";
             // 
@@ -86,13 +86,13 @@
             this.lblDia.AutoSize = true;
             this.lblDia.BackColor = System.Drawing.Color.White;
             this.lblDia.Depth = 0;
-            this.lblDia.Font = new System.Drawing.Font("Roboto", 11F);
+            this.lblDia.Font = new System.Drawing.Font("Century Schoolbook", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDia.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.lblDia.Location = new System.Drawing.Point(167, 134);
+            this.lblDia.Location = new System.Drawing.Point(165, 151);
             this.lblDia.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblDia.MouseState = MaterialSkin.MouseState.HOVER;
             this.lblDia.Name = "lblDia";
-            this.lblDia.Size = new System.Drawing.Size(39, 19);
+            this.lblDia.Size = new System.Drawing.Size(55, 23);
             this.lblDia.TabIndex = 2;
             this.lblDia.Text = "Día: ";
             // 
@@ -103,7 +103,7 @@
             // button1
             // 
             this.button1.Image = global::UamAcces.Properties.Resources.reloj_de_salida;
-            this.button1.Location = new System.Drawing.Point(232, 320);
+            this.button1.Location = new System.Drawing.Point(223, 373);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(81, 72);
@@ -116,10 +116,10 @@
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(11, 70);
+            this.pictureBox1.Location = new System.Drawing.Point(-5, 119);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(117, 110);
+            this.pictureBox1.Size = new System.Drawing.Size(184, 315);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -128,11 +128,11 @@
             // 
             this.RbPedestrian.AutoSize = true;
             this.RbPedestrian.BackColor = System.Drawing.Color.Transparent;
-            this.RbPedestrian.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RbPedestrian.Font = new System.Drawing.Font("Century Schoolbook", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RbPedestrian.Location = new System.Drawing.Point(4, 9);
             this.RbPedestrian.Margin = new System.Windows.Forms.Padding(2);
             this.RbPedestrian.Name = "RbPedestrian";
-            this.RbPedestrian.Size = new System.Drawing.Size(74, 19);
+            this.RbPedestrian.Size = new System.Drawing.Size(102, 23);
             this.RbPedestrian.TabIndex = 13;
             this.RbPedestrian.TabStop = true;
             this.RbPedestrian.Text = "Peatonal";
@@ -144,25 +144,25 @@
             this.materialLabel2.AutoSize = true;
             this.materialLabel2.BackColor = System.Drawing.Color.White;
             this.materialLabel2.Depth = 0;
-            this.materialLabel2.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel2.Font = new System.Drawing.Font("Century Schoolbook", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.materialLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel2.Location = new System.Drawing.Point(167, 161);
+            this.materialLabel2.Location = new System.Drawing.Point(165, 184);
             this.materialLabel2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel2.Name = "materialLabel2";
-            this.materialLabel2.Size = new System.Drawing.Size(114, 19);
+            this.materialLabel2.Size = new System.Drawing.Size(139, 19);
             this.materialLabel2.TabIndex = 14;
-            this.materialLabel2.Text = "Tipo de Acceso";
+            this.materialLabel2.Text = "Tipo de Acceso:";
             // 
             // RbVehicular
             // 
             this.RbVehicular.AutoSize = true;
             this.RbVehicular.BackColor = System.Drawing.Color.Transparent;
-            this.RbVehicular.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RbVehicular.Font = new System.Drawing.Font("Century Schoolbook", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RbVehicular.Location = new System.Drawing.Point(4, 38);
             this.RbVehicular.Margin = new System.Windows.Forms.Padding(2);
             this.RbVehicular.Name = "RbVehicular";
-            this.RbVehicular.Size = new System.Drawing.Size(75, 19);
+            this.RbVehicular.Size = new System.Drawing.Size(109, 23);
             this.RbVehicular.TabIndex = 15;
             this.RbVehicular.TabStop = true;
             this.RbVehicular.Text = "Vehicular";
@@ -172,7 +172,7 @@
             // TbPlate
             // 
             this.TbPlate.Enabled = false;
-            this.TbPlate.Location = new System.Drawing.Point(212, 249);
+            this.TbPlate.Location = new System.Drawing.Point(247, 284);
             this.TbPlate.Margin = new System.Windows.Forms.Padding(2);
             this.TbPlate.Name = "TbPlate";
             this.TbPlate.Size = new System.Drawing.Size(113, 20);
@@ -183,25 +183,25 @@
             this.materialLabel4.AutoSize = true;
             this.materialLabel4.BackColor = System.Drawing.Color.White;
             this.materialLabel4.Depth = 0;
-            this.materialLabel4.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel4.Font = new System.Drawing.Font("Century Schoolbook", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.materialLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel4.Location = new System.Drawing.Point(160, 250);
+            this.materialLabel4.Location = new System.Drawing.Point(165, 282);
             this.materialLabel4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.materialLabel4.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel4.Name = "materialLabel4";
-            this.materialLabel4.Size = new System.Drawing.Size(46, 19);
+            this.materialLabel4.Size = new System.Drawing.Size(60, 19);
             this.materialLabel4.TabIndex = 17;
-            this.materialLabel4.Text = "Placa";
+            this.materialLabel4.Text = "Placa:";
             // 
             // RbResidential
             // 
             this.RbResidential.AutoSize = true;
             this.RbResidential.BackColor = System.Drawing.Color.Transparent;
-            this.RbResidential.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RbResidential.Location = new System.Drawing.Point(80, 18);
+            this.RbResidential.Font = new System.Drawing.Font("Century Schoolbook", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RbResidential.Location = new System.Drawing.Point(121, 15);
             this.RbResidential.Margin = new System.Windows.Forms.Padding(2);
             this.RbResidential.Name = "RbResidential";
-            this.RbResidential.Size = new System.Drawing.Size(91, 19);
+            this.RbResidential.Size = new System.Drawing.Size(125, 23);
             this.RbResidential.TabIndex = 20;
             this.RbResidential.TabStop = true;
             this.RbResidential.Text = "Residencial";
@@ -213,25 +213,25 @@
             this.materialLabel5.AutoSize = true;
             this.materialLabel5.BackColor = System.Drawing.Color.White;
             this.materialLabel5.Depth = 0;
-            this.materialLabel5.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel5.Font = new System.Drawing.Font("Century Schoolbook", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.materialLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel5.Location = new System.Drawing.Point(167, 282);
+            this.materialLabel5.Location = new System.Drawing.Point(164, 332);
             this.materialLabel5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.materialLabel5.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel5.Name = "materialLabel5";
-            this.materialLabel5.Size = new System.Drawing.Size(60, 19);
+            this.materialLabel5.Size = new System.Drawing.Size(82, 19);
             this.materialLabel5.TabIndex = 19;
-            this.materialLabel5.Text = "Entrada";
+            this.materialLabel5.Text = "Entrada:";
             // 
             // RbPrincipal
             // 
             this.RbPrincipal.AutoSize = true;
             this.RbPrincipal.BackColor = System.Drawing.Color.Transparent;
-            this.RbPrincipal.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RbPrincipal.Font = new System.Drawing.Font("Century Schoolbook", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RbPrincipal.Location = new System.Drawing.Point(4, 17);
             this.RbPrincipal.Margin = new System.Windows.Forms.Padding(2);
             this.RbPrincipal.Name = "RbPrincipal";
-            this.RbPrincipal.Size = new System.Drawing.Size(73, 19);
+            this.RbPrincipal.Size = new System.Drawing.Size(106, 23);
             this.RbPrincipal.TabIndex = 18;
             this.RbPrincipal.TabStop = true;
             this.RbPrincipal.Text = "Principal";
@@ -243,7 +243,7 @@
             this.GbAcces.BackColor = System.Drawing.Color.Transparent;
             this.GbAcces.Controls.Add(this.RbPedestrian);
             this.GbAcces.Controls.Add(this.RbVehicular);
-            this.GbAcces.Location = new System.Drawing.Point(170, 183);
+            this.GbAcces.Location = new System.Drawing.Point(168, 205);
             this.GbAcces.Margin = new System.Windows.Forms.Padding(2);
             this.GbAcces.Name = "GbAcces";
             this.GbAcces.Padding = new System.Windows.Forms.Padding(2);
@@ -256,11 +256,11 @@
             this.GbEntry.BackColor = System.Drawing.Color.Transparent;
             this.GbEntry.Controls.Add(this.RbPrincipal);
             this.GbEntry.Controls.Add(this.RbResidential);
-            this.GbEntry.Location = new System.Drawing.Point(232, 271);
+            this.GbEntry.Location = new System.Drawing.Point(251, 317);
             this.GbEntry.Margin = new System.Windows.Forms.Padding(2);
             this.GbEntry.Name = "GbEntry";
             this.GbEntry.Padding = new System.Windows.Forms.Padding(2);
-            this.GbEntry.Size = new System.Drawing.Size(165, 44);
+            this.GbEntry.Size = new System.Drawing.Size(250, 42);
             this.GbEntry.TabIndex = 22;
             this.GbEntry.TabStop = false;
             // 
@@ -268,8 +268,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(484, 411);
-            this.Controls.Add(this.pictureBox1);
+            this.ClientSize = new System.Drawing.Size(512, 458);
             this.Controls.Add(this.GbEntry);
             this.Controls.Add(this.GbAcces);
             this.Controls.Add(this.materialLabel5);
@@ -280,6 +279,7 @@
             this.Controls.Add(this.lblDia);
             this.Controls.Add(this.lblHora);
             this.Controls.Add(this.LblWelcome);
+            this.Controls.Add(this.pictureBox1);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.Name = "Entry";
