@@ -104,7 +104,7 @@
             // 
             this.button1.Image = global::UamAcces.Properties.Resources.reloj_de_salida;
             this.button1.Location = new System.Drawing.Point(232, 320);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(81, 72);
             this.button1.TabIndex = 11;
@@ -114,10 +114,10 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::UamAcces.Properties.Resources.Logo;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
             this.pictureBox1.Location = new System.Drawing.Point(11, 70);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(117, 110);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -130,7 +130,7 @@
             this.RbPedestrian.BackColor = System.Drawing.Color.Transparent;
             this.RbPedestrian.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RbPedestrian.Location = new System.Drawing.Point(4, 9);
-            this.RbPedestrian.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.RbPedestrian.Margin = new System.Windows.Forms.Padding(2);
             this.RbPedestrian.Name = "RbPedestrian";
             this.RbPedestrian.Size = new System.Drawing.Size(74, 19);
             this.RbPedestrian.TabIndex = 13;
@@ -160,7 +160,7 @@
             this.RbVehicular.BackColor = System.Drawing.Color.Transparent;
             this.RbVehicular.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RbVehicular.Location = new System.Drawing.Point(4, 38);
-            this.RbVehicular.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.RbVehicular.Margin = new System.Windows.Forms.Padding(2);
             this.RbVehicular.Name = "RbVehicular";
             this.RbVehicular.Size = new System.Drawing.Size(75, 19);
             this.RbVehicular.TabIndex = 15;
@@ -173,7 +173,7 @@
             // 
             this.TbPlate.Enabled = false;
             this.TbPlate.Location = new System.Drawing.Point(212, 249);
-            this.TbPlate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TbPlate.Margin = new System.Windows.Forms.Padding(2);
             this.TbPlate.Name = "TbPlate";
             this.TbPlate.Size = new System.Drawing.Size(113, 20);
             this.TbPlate.TabIndex = 16;
@@ -185,7 +185,7 @@
             this.materialLabel4.Depth = 0;
             this.materialLabel4.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel4.Location = new System.Drawing.Point(167, 250);
+            this.materialLabel4.Location = new System.Drawing.Point(160, 250);
             this.materialLabel4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.materialLabel4.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel4.Name = "materialLabel4";
@@ -199,7 +199,7 @@
             this.RbResidential.BackColor = System.Drawing.Color.Transparent;
             this.RbResidential.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RbResidential.Location = new System.Drawing.Point(80, 18);
-            this.RbResidential.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.RbResidential.Margin = new System.Windows.Forms.Padding(2);
             this.RbResidential.Name = "RbResidential";
             this.RbResidential.Size = new System.Drawing.Size(91, 19);
             this.RbResidential.TabIndex = 20;
@@ -229,7 +229,7 @@
             this.RbPrincipal.BackColor = System.Drawing.Color.Transparent;
             this.RbPrincipal.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RbPrincipal.Location = new System.Drawing.Point(4, 17);
-            this.RbPrincipal.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.RbPrincipal.Margin = new System.Windows.Forms.Padding(2);
             this.RbPrincipal.Name = "RbPrincipal";
             this.RbPrincipal.Size = new System.Drawing.Size(73, 19);
             this.RbPrincipal.TabIndex = 18;
@@ -244,9 +244,9 @@
             this.GbAcces.Controls.Add(this.RbPedestrian);
             this.GbAcces.Controls.Add(this.RbVehicular);
             this.GbAcces.Location = new System.Drawing.Point(170, 183);
-            this.GbAcces.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.GbAcces.Margin = new System.Windows.Forms.Padding(2);
             this.GbAcces.Name = "GbAcces";
-            this.GbAcces.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.GbAcces.Padding = new System.Windows.Forms.Padding(2);
             this.GbAcces.Size = new System.Drawing.Size(125, 61);
             this.GbAcces.TabIndex = 21;
             this.GbAcces.TabStop = false;
@@ -257,9 +257,9 @@
             this.GbEntry.Controls.Add(this.RbPrincipal);
             this.GbEntry.Controls.Add(this.RbResidential);
             this.GbEntry.Location = new System.Drawing.Point(232, 271);
-            this.GbEntry.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.GbEntry.Margin = new System.Windows.Forms.Padding(2);
             this.GbEntry.Name = "GbEntry";
-            this.GbEntry.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.GbEntry.Padding = new System.Windows.Forms.Padding(2);
             this.GbEntry.Size = new System.Drawing.Size(165, 44);
             this.GbEntry.TabIndex = 22;
             this.GbEntry.TabStop = false;
@@ -280,7 +280,7 @@
             this.Controls.Add(this.lblDia);
             this.Controls.Add(this.lblHora);
             this.Controls.Add(this.LblWelcome);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.Name = "Entry";
             this.Sizable = false;

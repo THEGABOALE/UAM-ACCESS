@@ -100,7 +100,7 @@ namespace UamAcces.Formularios
                     entrant.EntryType = typeaccess;
                     entrant.Plate = TbPlate.Text;
 
-                    DialogResult aswer = MessageBox.Show("¿Seguro desea marcar asistencia?", "Asistencia",
+                    DialogResult aswer = MessageBox.Show("¿Seguro que desea marcar entrada?", "Entrada",
                         MessageBoxButtons.YesNo, MessageBoxIcon.Information);
                     if (aswer == DialogResult.Yes)
                     {
