@@ -169,6 +169,7 @@
             this.MaximizeBox = false;
             this.Name = "Input";
             this.Sizable = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UAM ACCESS";
             this.Load += new System.EventHandler(this.Input_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
