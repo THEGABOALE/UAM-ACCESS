@@ -282,6 +282,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Referencias\Referencias.txt" />
+    <None Include="Resources\download %281%29.jpeg" />
+    <None Include="Resources\download %282%29.jpeg" />
+    <None Include="Resources\download %283%29.jpeg" />
+    <None Include="Resources\hq720.jpg" />
+    <None Include="Resources\1rddq7abmswd1.jpeg" />
+    <None Include="Resources\sdfsdfafafasfsafsaf.PNG" />
     <None Include="Resources\ACCESS_3-removebg-preview.png" />
     <None Include="Resources\1733100609220.png" />
     <None Include="Resources\error.png" />
