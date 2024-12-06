@@ -282,6 +282,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Referencias\Referencias.txt" />
+    <None Include="Resources\ACCESS_3-removebg-preview.png" />
     <None Include="Resources\1733100609220.png" />
     <None Include="Resources\error.png" />
     <None Include="Resources\cerrar-sesion.png" />
